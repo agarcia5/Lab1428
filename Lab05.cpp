@@ -6,13 +6,13 @@ int main()
 {
     double tip, bill, total;
 
-    cout << "Enter a tip amount " << endl;
+    cout << "Enter a tip amount in decimal form " << endl;
     cin >> tip;
 
     cout << "What is the amount of the bill " << endl;
     cin >> bill;
 
-    total = bill/tip;
+    total = (bill/tip);
 
     cout << "The tip is " << total << endl;
 
